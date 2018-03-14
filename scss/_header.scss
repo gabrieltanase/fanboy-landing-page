@@ -1,3 +1,31 @@
-h1 {
-    color: red;
+/* Navigation section styles */
+.masthead {
+    padding: .5rem 5.5rem 1.5rem;
+}
+
+.navbar-light {
+    
+    .navbar-nav {
+
+        text-transform: uppercase;
+
+        .nav-item {
+            border-bottom: 2px solid white;
+
+           &:hover {
+                box-sizing: border-box;
+                border-bottom: 2px solid #a5173e;
+            }
+        }
+
+        .nav-link {
+            font-size: 1.2em;
+            color: #000;
+            font-weight: 600;
+            padding: 1rem 2rem;
+            &:hover {
+                color: #000;
+            }
+        }
+    } 
 }

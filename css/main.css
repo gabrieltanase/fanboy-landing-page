@@ -1,2 +1,42 @@
-h1 {
-  color: red; }
+/* Navigation section styles */
+.masthead {
+  padding: .5rem 5.5rem 1.5rem; }
+
+.navbar-light .navbar-nav {
+  text-transform: uppercase; }
+  .navbar-light .navbar-nav .nav-item {
+    border-bottom: 2px solid white; }
+    .navbar-light .navbar-nav .nav-item:hover {
+      box-sizing: border-box;
+      border-bottom: 2px solid #a5173e; }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 600;
+    padding: 1rem 2rem; }
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: #000; }
+
+.jumbotron {
+  border-radius: 0;
+  background: #fff url("../img/ipad.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 340px;
+  text-align: center;
+  padding: 6rem; }
+  .jumbotron h1 {
+    color: #fff;
+    margin-bottom: 40px; }
+  .jumbotron button {
+    color: #fff;
+    background-color: #a5173e;
+    border: none;
+    padding: 15px 60px;
+    font-size: 25px;
+    font-weight: 600; }
+
+@media (max-width: 575.98px) {
+  .masthead {
+    padding: 0.5rem 1rem; }
+  .jumbotron {
+    padding: 2rem 1rem; } }

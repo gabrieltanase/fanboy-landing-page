@@ -1,0 +1,22 @@
+.jumbotron {
+    border-radius: 0;
+    background: #fff url('../img/ipad.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 340px;
+    text-align: center;
+    padding: 6rem;
+    
+    h1 {
+        color: #fff;
+        margin-bottom: 40px;
+    }
+
+    button {
+        color: #fff;
+        background-color: #a5173e;
+        border: none;
+        padding: 15px 60px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
