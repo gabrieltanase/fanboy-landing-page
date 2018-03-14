@@ -8,5 +8,9 @@
     "scss": "node-sass --watch scss -o css"
   },
   "author": "Gabriel Tanase",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.7.2",
+    "sass": "^1.0.0-beta.5.3"
+  }
 }
