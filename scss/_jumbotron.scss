@@ -3,8 +3,7 @@
     background: #fff url('../img/ipad.jpg') no-repeat center;
     background-size: cover;
     min-height: 340px;
-    text-align: center;
-    padding: 6rem;
+    // padding: 6rem;
     
     h1 {
         color: #fff;
@@ -14,9 +13,15 @@
     button {
         color: #fff;
         background-color: #a5173e;
+        text-align: center;
         border: none;
-        padding: 15px 60px;
+        padding: 13px 60px;
         font-size: 25px;
         font-weight: 600;
+
+        &:hover {
+            opacity: 0.85;
+            transition: all 200ms ease-in-out;
+        }
     }
 }

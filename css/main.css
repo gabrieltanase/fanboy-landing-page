@@ -21,22 +21,27 @@
   border-radius: 0;
   background: #fff url("../img/ipad.jpg") no-repeat center;
   background-size: cover;
-  min-height: 340px;
-  text-align: center;
-  padding: 6rem; }
+  min-height: 340px; }
   .jumbotron h1 {
     color: #fff;
     margin-bottom: 40px; }
   .jumbotron button {
     color: #fff;
     background-color: #a5173e;
+    text-align: center;
     border: none;
-    padding: 15px 60px;
+    padding: 13px 60px;
     font-size: 25px;
     font-weight: 600; }
+    .jumbotron button:hover {
+      opacity: 0.85;
+      transition: all 200ms ease-in-out; }
 
-@media (max-width: 575.98px) {
-  .masthead {
-    padding: 0.5rem 1rem; }
-  .jumbotron {
-    padding: 2rem 1rem; } }
+.products {
+  padding: 0 5.5rem; }
+  .products .container {
+    padding: 0; }
+  .products img {
+    height: 305px;
+    width: 100%;
+    display: block; }
