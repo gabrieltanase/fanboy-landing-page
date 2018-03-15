@@ -1,6 +1,32 @@
+.header,
+.products {
+  max-width: 1500px; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #a5173e;
+  padding: 13px 60px;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+  border-radius: 0; }
+  .btn-primary:hover {
+    background-color: #a22b4c; }
+  .btn-primary:active {
+    background-color: #a22b4c !important;
+    border-color: #a22b4c !important; }
+  .btn-primary:focus {
+    box-shadow: none; }
+
 /* Navigation section styles */
-.masthead {
-  padding: .5rem 5.5rem 1.5rem; }
+header {
+  max-width: 1500px;
+  margin: 0 auto; }
+  header a {
+    display: inline-block; }
+
+.navbar {
+  padding: 1.5rem 1rem; }
 
 .navbar-light .navbar-nav {
   text-transform: uppercase; }
@@ -13,35 +39,49 @@
     font-size: 1.2em;
     color: #000;
     font-weight: 600;
-    padding: 1rem 2rem; }
+    padding-right: 1.5rem;
+    padding-left: 1.5rem; }
     .navbar-light .navbar-nav .nav-link:hover {
       color: #000; }
 
 .jumbotron {
-  border-radius: 0;
-  background: #fff url("../img/ipad.jpg") no-repeat center;
+  background: url("../img/ipad.jpg") no-repeat center;
   background-size: cover;
-  min-height: 340px; }
-  .jumbotron h1 {
-    color: #fff;
-    margin-bottom: 40px; }
-  .jumbotron button {
-    color: #fff;
-    background-color: #a5173e;
-    text-align: center;
-    border: none;
-    padding: 13px 60px;
-    font-size: 25px;
-    font-weight: 600; }
-    .jumbotron button:hover {
-      opacity: 0.85;
-      transition: all 200ms ease-in-out; }
+  border-radius: 0; }
 
-.products {
-  padding: 0 5.5rem; }
-  .products .container {
-    padding: 0; }
-  .products img {
-    height: 305px;
-    width: 100%;
-    display: block; }
+.jumbotron-heading {
+  color: #fff;
+  margin-bottom: 2rem; }
+
+.card {
+  border: none; }
+  .card button {
+    padding: 13px 30px; }
+  .card h4 {
+    margin-bottom: 2.5rem; }
+  .card h6 {
+    margin-bottom: 0.25rem; }
+
+.card-body {
+  position: relative; }
+
+.card-img-top {
+  width: 100%;
+  height: 225px;
+  display: block;
+  border-radius: 0; }
+
+.text-muted {
+  font-weight: 600; }
+
+.price {
+  color: #a5173e;
+  font-size: 2em;
+  font-weight: 600;
+  position: absolute;
+  right: 1.25rem;
+  top: 1.25rem; }
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 8rem 2rem; } }
