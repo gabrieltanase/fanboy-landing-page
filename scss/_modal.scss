@@ -1,0 +1,18 @@
+.modal-dialog {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-content {
+    min-height: 250px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.close {
+    font-size: 2rem;
+}
