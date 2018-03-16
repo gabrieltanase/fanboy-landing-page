@@ -1,0 +1,57 @@
+.promo {
+   background-color: #a5173e;
+
+        .wrapper {
+            width: 35%;
+        }
+
+        .circle{
+            width: 100%;
+            border-radius:50%;
+            text-align:center;
+            font-size: 48px;
+            padding: 50% 0;
+            line-height:0;
+            position:relative;
+            background: #38a9e4;
+            color: white;
+            font-family: Helvetica, Arial Black, sans;
+        }
+
+        span {
+            display: block;
+        }
+//    .circle {
+//         width: 150px;;
+//         height: 150px;
+//         border-radius: 50%;
+//         background: #a5173e;
+//         background: #fff;
+//         color: #fff;
+//         color: #a5173e;
+//         text-align: center;
+
+//         span {
+//             font-size: 3em;
+//             display: inline-block;
+//             padding-top: 14%;
+//             line-height: 46px;
+
+//         }
+//    }
+}
+
+// .circle-wrap {display: flex}
+// .circle {
+//     flex: 1;
+//     background: #BADA55;
+//     border-radius: 50%;
+//     margin: 5px;
+//     &:before {
+//             content: "";
+//             display: block;
+//             padding-top: 100%;
+//     }
+    	
+// }
+  

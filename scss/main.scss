@@ -1,3 +1,4 @@
+/** GENERAL STYLES */
 .header,
 .products,
 .sales {
@@ -14,12 +15,12 @@
     border-radius: 0;
 
     &:hover {
-        background-color: #a22b4c;
+        background-color: #a53c5a;
     }
 
     &:active {
-        background-color: #a22b4c!important;
-        border-color: #a22b4c!important;
+        background-color: #a53c5a!important;
+        border-color: #a53c5a!important;
     }
 
     &:focus{
@@ -31,4 +32,5 @@
 @import 'header';
 @import 'jumbotron';
 @import 'products';
+@import 'promo';
 @import 'mediaQueries';
