@@ -2,20 +2,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-        <link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-
         <link rel="stylesheet" href="./css/main.css">
 
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="utf-8">
         <title>Fanboy App</title>
     </head>
-    <body>  
-        <?php require 'connection.php'; ?>
-            <?php echo "<h1>Hello, PHP-7!</h1>"; ?>
-
+    <body> 
         <!-- Header  -->
         <header class="navbar navbar-expand-lg navbar-light bg-white">
             <a  class="navbar-brand" href="#">
@@ -121,8 +114,6 @@
                 </div>
             </div><!-- END Products -->
 
-            <div><?php echo($test);?></div>
-
             <!-- PROMO -->
             <section class="promo jumbotron">
                 <div class="container sales">
@@ -148,7 +139,7 @@
 
         <!-- Modal -->
         <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -157,13 +148,13 @@
                     </div>
                     <div class="modal-body d-flex justify-content-center flex-wrap">
                         <h3 class="modal-title" id="subscribeModalLabel">Tilmeld dig vores nyhedsbrev i dag.</h3>
-                        <form action="" class="d-inline-flex flex-row">
+                        <form action="" name="email" method="POST" class="subscribe-form d-inline-flex flex-row">
                             <input type="email" placeholder="Indtast e-mail" requred>
-                            <button action="submit" onclick="">Tilmeld</button>
+                            <button action="submit" type="submit" name="subscribe">Tilmeld</button>
                         </form>
                 </div>
             </div>
-      </div>
+        </div>
 
 
         <!-- SCRIPTS -->
@@ -173,6 +164,5 @@
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
-
     </body>
 </html>
