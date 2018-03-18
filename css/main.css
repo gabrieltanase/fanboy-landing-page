@@ -116,19 +116,38 @@ header {
         margin-bottom: 0; }
 
 .modal-dialog {
-  max-width: 700px;
-  margin: 0 auto; }
+  max-width: 700px; }
 
 .modal-header {
-  border: none; }
+  border: none;
+  padding: 0 1rem; }
 
 .modal-content {
   min-height: 250px;
-  width: 700px;
   border-radius: 10px; }
 
 .close {
   font-size: 2rem; }
+
+form {
+  max-width: 100%; }
+  form input,
+  form button {
+    height: 60px; }
+  form input {
+    width: 100%;
+    background: #dedede;
+    border: none;
+    padding: 4%;
+    font-size: 1.5em; }
+  form button {
+    cursor: pointer;
+    color: #fff;
+    background-color: #a5173e;
+    width: 200px;
+    position: relative;
+    left: -5px;
+    border: none; }
 
 @media (max-width: 575.98px) {
   .promo .circle {
@@ -138,7 +157,15 @@ header {
     left: 5px; }
   .promo .circle span {
     font-size: 30px;
-    line-height: 1; } }
+    line-height: 1; }
+  .modal-title {
+    text-align: center;
+    margin-bottom: 20px; }
+  form button,
+  form input {
+    height: 46px; }
+  form input {
+    font-size: 18px; } }
 
 @media (max-width: 575.98px) and (orientation: landscape) {
   .card {
